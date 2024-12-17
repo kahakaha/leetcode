@@ -3,7 +3,10 @@
 .idea/
 
 # build binary
-build
+build/
+
+# tmp archive
+archive/0/
 
 # Prerequisites
 *.d
