@@ -8,11 +8,13 @@ int main(void) {
     Solution solution;
 
     // 处理输入
-    int x;
-    cin >> x;
+    vector<char> letters;
+    char target;
+    readVector(letters, R"(["c","f","j"])");
+    target = 'a';
 
     // 调用函数
-    auto res = solution.isPalindrome(x);
+    auto res = solution.nextGreatestLetter(letters, target);
 
     // 输出结果
     cout << res << endl;
